@@ -71,6 +71,7 @@ footer {
     position: relative;
 }
 .hero-form {
+border: 3px solid #024e76;
 background-color: #fce138;
 padding: 20px;
 width:  500px;
@@ -78,5 +79,22 @@ color: #024e76;
 position: absolute;
 bottom: 120px;
 right: 140px;
+}
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
 }
 /*Hero Style End */
