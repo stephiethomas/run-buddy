@@ -70,6 +70,7 @@ footer {
     background-position: center;
     position: relative;
 }
+/*Hero Style End */
 .hero-form {
 border: 3px solid #024e76;
 background-color: #fce138;
@@ -104,7 +105,6 @@ right: 140px;
     padding: 10px 20px;
     font-size: 16px;
 }
-/*Hero Style End */
 
 .intro {
     text-align: center;
@@ -218,7 +218,8 @@ right: 140px;
     color: #fce138;
     font-size: 32px;
 }
-.contact-info p, .contact-info address {
+.contact-info p,
+.contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: normal;
