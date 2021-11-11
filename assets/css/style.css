@@ -1,3 +1,6 @@
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -25,6 +28,7 @@
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
+    z-index: 9999;
   }
   
   header h1 {
@@ -249,11 +253,18 @@
       position: absolute;
       left: -26px;
       top: 1px;
+      transform: rotate(-58deg);
     
   }
 
-  .checkbox-wrapper input:checked, .radio-wrapper input:checked {
-      opacity: 1;
+  .checkbox-wrapper input:checked + label::after,
+  .radio-wrapper input:checked + label::after {
+      content: none;
+  }
+
+  .checkbox-wrapper input:checked + label::after,
+  .radio-wrapper input:checked + label::after {
+    content:"";
   }
   
   /* SECTION TITLE STYLES END */
